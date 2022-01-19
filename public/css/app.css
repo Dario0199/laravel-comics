@@ -64,3 +64,29 @@ main .btn button {
   font-size: 12px;
   font-weight: 700;
 }
+
+footer {
+  background: #292929;
+  padding: 2rem 0 2rem 0;
+  border-top: 10px solid #0c7cec;
+}
+footer button {
+  background: #292929;
+  border: 2px solid #0c7cec;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  width: 150px;
+}
+footer h5 {
+  color: #0c7cec;
+  font-weight: 600;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  text-decoration: none;
+  margin-left: 1rem;
+}

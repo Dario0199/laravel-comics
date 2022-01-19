@@ -1,0 +1,27 @@
+footer{
+    background: $bg-footer;
+    padding: 2rem 0 2rem 0;
+    border-top: 10px solid $details-color;
+
+    button{
+        background: $bg-footer;
+        border: 2px solid $details-color;
+        color: $font-color2;
+        font-size: 14px;
+        font-weight: 600;
+        width: 150px;
+    }
+    h5{
+        color: $details-color;
+        font-weight: 600;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+
+        li{
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+    }
+}
