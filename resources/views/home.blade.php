@@ -4,12 +4,14 @@
     <main>
         <section class="container">
             <div class="cards d-flex flex-wrap">
-                @foreach ($cards as $card)
+                @foreach ($cards as $index => $card)
                     <div class="card">
-                        <div class="img-card">
-                            <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}">
-                        </div>
-                        <h6>{{ $card['series'] }}</h4>
+                        <a href="{{ route('product-details', ['id' => $index]) }}">
+                            <div class="img-card">
+                                <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}">
+                            </div>
+                            <h6>{{ $card['series'] }}</h4>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -18,4 +20,8 @@
             </div>
         </section>
     </main>
+@endsection
+
+@section('comics-content')
+<script src="{{ asset('js/app.js') }}"></script>
 @endsection

@@ -1,0 +1,73 @@
+.jumbo{
+    background-image: url(../images/jumbotron.jpg); 
+    width:100%;
+    height: 360px;
+    background-position: top;
+    background-size: cover;
+    border-bottom: 50px solid $details-color;
+    position: relative;
+
+    img{
+        width: 150px;
+        position: absolute;
+        bottom: -30px;
+    }
+    
+}
+.content{
+    background: $bg-color2;
+    padding: 50px 0 50px 0;
+
+    .text{
+        width: 70%;
+        padding-right: 20px;
+        h2{
+            font-weight: 600;
+            color: $font-color4;
+        }
+        .price-available{
+            background: $price-color;
+            width: 70%;
+            height: 47.2px;
+            padding: 10px;
+            border-bottom: 2px solid gray;
+            h6{
+                font-weight: 700;
+                color: #93dd61;
+                
+            }
+            .money {
+                color: $font-color2;
+            }
+        }
+        .availability{
+            width: 30%;
+            select{
+                width: 100%;
+                height: 47.2px;
+                background: $price-color;
+                border: none;
+                border-bottom: 2px solid grey;
+                border-left: 2px solid gray;
+                color: $font-color2;
+                font-size: 12px;
+                font-weight: 700;
+
+            }
+        }
+        .description{
+            margin-top: 1rem;
+
+            p{
+                width: 750px;
+                color: $font-color3;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .image{
+        width: 30%;
+    }
+}
